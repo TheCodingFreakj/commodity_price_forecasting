@@ -1,0 +1,15 @@
+Flask
+yfinance
+pandas
+scikit-learn
+statsmodels
+keras
+matplotlib
+numpy
+Flask-SQLAlchemy
+psycopg2-binary
+apscheduler
+Flask-Migrate
+joblib
+flask-cors
+redis
