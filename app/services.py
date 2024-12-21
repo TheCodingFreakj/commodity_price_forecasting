@@ -115,6 +115,7 @@ def load_data_from_db():
     query = "SELECT * FROM commodity_price;"  # Adjust your table name as needed
     df = pd.read_sql(query, engine)
     print("Data loaded from database")
+    
     return df
 
 def preprocess_data(df):
