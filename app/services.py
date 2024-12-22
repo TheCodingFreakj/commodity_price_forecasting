@@ -102,7 +102,9 @@ def validate_prediction(selected_date_str, predicted_price):
     # Calculate the absolute error
     absolute_error = abs(predicted_price - actual_price_value)
 
-    return absolute_error, None
+    percentage_error = (absolute_error / actual_price_value) * 100
+
+    return percentage_error, None
 
 # 1. Function to load data from the database
 def load_data_from_db():

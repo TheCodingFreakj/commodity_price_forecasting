@@ -1,0 +1,34 @@
+Key Metrics and Signs of Model Failure
+
+High Error Metrics
+
+Mean Absolute Error (MAE): Indicates large deviations between actual and predicted values.
+Mean Squared Error (MSE): Amplifies large errors due to squaring.
+Root Mean Squared Error (RMSE): Square root of MSE; interpretable in the same units as the target.
+Mean Absolute Percentage Error (MAPE): Percentage error, useful for scale-independent evaluation.
+
+
+
+Variance in the dependent variable refers to the degree to which the values of the dependent variable 
+(or target variable) differ from their mean.
+It is a measure of how spread out the observed data points are around their average value.
+
+A high variance in the dependent variable means the observed values are widely spread out from the mean.
+A low variance indicates the observed values are closely clustered around the mean.
+
+
+Low R2 Score (Coefficient of Determination)
+
+Measures how much variance in the target is explained by the model.
+Ranges from 0 to 1 (or can be negative if the model is worse than a baseline).
+
+
+
+When the moving average is trending upwards, it indicates a positive trend in prices.
+When the moving average flattens or trends downward, it may indicate a slowdown or reversal in the trend.
+The gap between the moving average and the original price reflects the volatility of the data.
+
+
+Pandas Profiling: Automatically generates a detailed report of your data, including statistical summaries, missing data, correlations, etc.
+Seaborn: Creates insightful visualizations (pair plots, heatmaps, distributions, etc.) to better understand the relationships and distributions in your data.
+Statsmodels/Scikit-Learn: Performs statistical tests (e.g., t-tests, regression analysis) and feature selection to identify important predictors for modeling.

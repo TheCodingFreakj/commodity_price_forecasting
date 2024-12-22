@@ -30,3 +30,4 @@ if __name__ == "__main__":
     
     # Dump the data to the CSV file
     dump_data_to_csv(data, csv_file_name)
+
